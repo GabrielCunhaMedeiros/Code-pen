@@ -1,0 +1,18 @@
+div.menuPrincipal {
+  padding: 10px;
+  background-color: orange;
+  display: flex;
+  gap: 10px;
+  justify-content: space-evenly;
+}
+
+div.menuPrincipal div {
+  padding: 10px;
+  margin : 0px;
+  background-color: white;
+}
+div.menuPrincipal div:nth-child(2) {
+  padding: 100px;
+  margin : 10px;
+  background-color: lightgray;
+}
